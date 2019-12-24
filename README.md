@@ -1,5 +1,5 @@
 # HashTable.cpp:
-This program implements and then orchestrates a HashTable to read in a given file, and allow users to interact with the Hashtable via comand line.
+This program implements and then orchestrates a HashTable to read in a given file, and allow users to interact with the Hashtable via command line.
 
 ### Functionality Supported:
 - Ingest data from file
