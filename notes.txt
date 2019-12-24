@@ -1,1 +1,0 @@
-I have tested the following types of cases for :g:```$ :g mandelbrot``````$ :g mikescoolword``` ##(this is not a word)```$ :p mikescoolword 99999``````$ :g mikescoolword``````$ :r mikescoolword``````$ :g mikescoolword```And observed "expected" behavior, including the output of "Not found". Is there an approach to self-testing I could take that would illuminate what's going on?
