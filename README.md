@@ -32,13 +32,13 @@ This will run the program. It will ingest the designated file and begin an inter
 
 Interact with it like so:
 
-`g: word` to **GET** a given word
+`:g word` to **GET** a given word
 
-`p: word frequency` to **PUT** given word and its frequency to the HashTable, e.g. `p: boondoggle 2000`.
+`:p word frequency` to **PUT** given word and its frequency to the HashTable, e.g. `p: boondoggle 2000`.
 
-`r: word` to **DELETE** the word from the HashTable, and
+`:r word` to **DELETE** the word from the HashTable, and
 
-`q:` to quit the program.
+`:q` to quit the program.
 
 
 ## References:
