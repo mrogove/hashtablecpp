@@ -4,6 +4,8 @@ This program implements and then orchestrates a HashTable to read in a given fil
 <img width="523" alt="hashtablediagram" src="https://user-images.githubusercontent.com/7624639/71420311-8b00bd80-2642-11ea-900a-722e8b07c97a.PNG">
 *Crude diagram of hash table memory allocation in action.*
 
+**FIRST:** make sure to unzip the dataset files local to the rest of the repo files.
+
 ### Functionality Supported:
 - Ingest data from file
 - **PUT**
