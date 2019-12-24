@@ -1,0 +1,4 @@
+test :
+        clang++ -std=c++11 -g -O0 test.cpp Hasher.cpp LinkedList.cpp Node.cpp -o test
+memory :
+        valgrind --leak-check=full --show-leak-kinds=all ./test

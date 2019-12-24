@@ -1,0 +1,42 @@
+Node
+(constructors)
+(get basics from Lab4)
+
+funcs:
+get next
+get prior?
+set next
+set prior?
+
+structure:
+- word (string)
+- freq (int)
+- hash value (int?)
+- pointer to next
+- pointer to prior?
+
+
+HashTable
+(constructors)
+needs loadcalc.
+- needs a Convert() func that takes word and freq, creates new Node, calculates hashval. Invokes add() to current table.
+
+Add() should also check load value and invoke resize if necessary.
+get(), word-based.
+remove(), word-based. Should be bool.
+
+priv structure:
+- array of pointers to LinkedLists.
+- load values
+	- number of elements
+	- array size
+needs resize function based on load.
+	- resize can leverage add() (to new), as well as the LinkedList removeFront() (from old) functions.
+
+
+
+Hasher
+should take word as input
+should return an int value?
+
+ 
