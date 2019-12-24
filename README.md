@@ -27,7 +27,8 @@ To run main file, simply do:
 
 and then using a given filename:
 `./database ./dataset_small.tsv`
-This will run the program. It will ingest the designated file and begin an interactive command line.
+
+This will run the program. It will ingest the designated file and begin an interactive command line. May take a few minutes to ingest.
 
 Interact with it like so:
 
