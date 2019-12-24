@@ -3,9 +3,9 @@ This program implements and then orchestrates a HashTable to read in a given fil
 
 ### Functionality Supported:
 - Ingest data from file
-- PUT
-- GET
-- DELETE
+- **PUT**
+- **GET**
+- **DELETE**
 
 Crucially, the table should resize itself.
 
@@ -30,10 +30,15 @@ and then using a given filename:
 This will run the program. It will ingest the designated file and begin an interactive command line.
 
 Interact with it like so:
+
 `g: word` to **GET** a given word
+
 `p: word frequency` to **PUT** given word and its frequency to the HashTable, e.g. `p: boondoggle 2000`.
+
 `r: word` to **DELETE** the word from the HashTable, and
+
 `q:` to quit the program.
+
 
 ## References:
 Derived from the Tufts U Summer 2019 Data Structures course by Tomoki Shibata and Matthew Russell.
